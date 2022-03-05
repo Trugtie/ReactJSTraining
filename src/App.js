@@ -1,15 +1,11 @@
 import React from "react"
-import Navbar from "./components/Nav"
-import Main from "./components/Main"
-import Card from "./components/Card"
+import Project1 from "./components/SoloProject1"
+import AirProject from "./components/AirbnbProject"
 
 export default function App() {
     return (
         <div className="container">
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
+            <AirProject/>
         </div>
     )
 }

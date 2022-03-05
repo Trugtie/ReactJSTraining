@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
 *,
 *::before,
 *::after {
@@ -186,10 +188,138 @@ main {
   margin-right: 24px;
 }
 
-.container {
+.grid__container {
   background: #1c1c1c;
   display: grid;
   grid-template-columns: auto auto;
-  justify-content:center;
-  gap:49px;
+  justify-content: center;
+  gap: 49px;
+}
+
+.containerAir {
+  background: #fff;
+}
+.navAir {
+  background: #fff;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  height: 70px;
+  margin-bottom: 26px;
+}
+
+.Hero--Air {
+  padding: 0px 77px;
+  text-align:center;
+}
+.Hero__Title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 110%;
+  color: #000000;
+  text-align: left;
+  margin: 32px 0px 16px 36px;
+}
+
+.Hero__Description {
+  width: 320px;
+  height: 56px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 110%;
+  color: #222222;
+  margin-left: 32px;
+  text-align: justify;
+  margin-bottom: 49px;
+}
+
+.RateNumber {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+  color: #222222;
+  margin-left: 18px;
+}
+.Rating {
+  position: relative;
+  margin-top: 9px;
+}
+.starticon {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.Locate {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+  color: #918e9b;
+  margin-left: 2px;
+}
+
+.Description {
+  font-family: "Poppins", sans-serif;
+  color: #222222;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+  margin: 8px 0px;
+}
+.Price {
+  font-family: "Poppins", sans-serif;
+  color: #918e9b;
+  font-size: 12px;
+  line-height: 110%;
+}
+.PriceNumber {
+  color: #222222;
+}
+.imgProduct {
+  width: 176px;
+  height: 235px;
+}
+.AirImg {
+  position: relative;
+}
+.ProductSpec {
+  top: 6px;
+  left: 6px;
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 110%;
+  text-align: center;
+  padding:5px;
+  color: black;
+  z-index: 1;
+  width: 61px;
+  height: 20px;
+  background:white;
+  vertical-align: middle;
+  border-radius:3px;
+  border:none;
+}
+
+.AirList{
+  padding:0px 37px;
+  display: flex;
+}
+
+.AirProduct{
+  margin-right: 17px;
+}
+
+.Gallery{
+  max-width: 395,91px;
+  max-width:100%;
 }
