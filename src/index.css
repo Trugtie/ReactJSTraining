@@ -208,7 +208,7 @@ main {
 
 .Hero--Air {
   padding: 0px 77px;
-  text-align:center;
+  text-align: center;
 }
 .Hero__Title {
   font-family: "Poppins", sans-serif;
@@ -299,27 +299,144 @@ main {
   font-size: 10.24px;
   line-height: 110%;
   text-align: center;
-  padding:5px;
+  padding: 5px;
   color: black;
   z-index: 1;
   width: 61px;
   height: 20px;
-  background:white;
+  background: white;
   vertical-align: middle;
-  border-radius:3px;
-  border:none;
+  border-radius: 3px;
+  border: none;
 }
 
-.AirList{
-  padding:0px 37px;
+.AirList {
+  padding: 0px 37px;
   display: flex;
 }
 
-.AirProduct{
+.AirProduct {
   margin-right: 17px;
 }
 
-.Gallery{
-  max-width: 395,91px;
-  max-width:100%;
+.Gallery {
+  max-width: 395, 91px;
+  max-width: 100%;
+}
+
+.containerTravel {
+  background: #fff;
+}
+.travel-nav {
+  background: #f55a5a;
+  height: 55px;
+  color: white;
+}
+
+.world-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 7px;
+}
+
+.travel-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  color: #ffffff;
+}
+
+.travel-nav {
+  display: flex;
+  justify-content: center;
+}
+.TravelList-Session {
+  background-color: #fff;
+  height: 100vh;
+  padding: 45px 40px;
+}
+
+.TravelCard {
+  display: flex;
+  color: #000000;
+}
+.Travel__Img {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+
+.TravelCard__Content {
+  margin-left: 19px;
+  padding: 20px 0px;
+}
+.TravelCard__Subtitle {
+  display: flex;
+  position: relative;
+  margin-bottom: 7px;
+}
+.Travel-Locate-Icon {
+  width: 7px;
+  height: 9.55px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.TravelCard__Locate {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  margin-left: 10px;
+  margin-right: 12px;
+  color: #2b283a;
+}
+
+.Locate-Link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #918e9b;
+}
+
+.Travel__Tittle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2b283a;
+  margin-bottom: 15px;
+}
+
+.Travel__Time {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10.24px;
+  line-height: 12px;
+  margin-bottom: 9px;
+  color: #2b283a;
+}
+
+.Travel__Description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #2b283a;
+  max-width: 326px;
+  height: 45px;
+}
+
+.TravelCard{
+  margin-bottom:36px;
 }
